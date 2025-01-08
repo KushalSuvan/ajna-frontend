@@ -1,0 +1,26 @@
+# Ignore node_modules and build output
+node_modules/
+.next/
+out/
+dist/
+
+# Ignore TypeScript declaration files
+*.d.ts
+
+# Ignore configuration files (if you prefer to format them manually)
+.eslintrc.js
+.prettierrc
+.tailwind.config.js
+
+# Ignore public static files
+public/
+
+# Ignore specific files or directories
+# For example, if you don't want to format tests or other specific files:
+tests/
+*.test.tsx
+*.test.ts
+
+# Ignore specific markdown files or other formats
+*.md
+*.mdx
