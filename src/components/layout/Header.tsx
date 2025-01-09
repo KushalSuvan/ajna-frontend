@@ -5,7 +5,6 @@ import Logo from './Logo';
 import NavBar from './NavBar';
 
 const Header = ({ className }: { className?: string }) => {
-
 	return (
 		<header
 			className={`sticky 
@@ -19,11 +18,12 @@ const Header = ({ className }: { className?: string }) => {
 			<span className="header-left">
 				<Logo />
 			</span>
-			<span className="header-center">
-				<NavBar />
+			<span className="header-center hidden lg:inline">
+				<NavBar largeScreen={true} />
 			</span>
-			<span className="header-right">
+			<span className="header-right flex items-center justify-between">
 				<AuthButtons />
+				<NavBar largeScreen={false} className="inline lg:hidden" />
 			</span>
 		</header>
 	);

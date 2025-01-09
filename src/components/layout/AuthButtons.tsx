@@ -13,8 +13,8 @@ const AuthButtons = () => {
 				Sign in
 			</Link>
 			<Link href="/signup" className={`${styles.signUp}`}>
-				<span className='hidden lg:inline'>Start Free Trial</span>
-                <span className='inline lg:hidden'>Sign Up</span>
+				<span className="hidden lg:inline">Start Free Trial</span>
+				<span className="inline lg:hidden">Sign Up</span>
 			</Link>
 		</>
 	);

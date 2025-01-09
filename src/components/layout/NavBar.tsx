@@ -8,7 +8,17 @@ const links: { [key: string]: string } = {
 	Changelog: '/changelog',
 };
 
-const NavBar = ({ className }: { className?: string }) => {
+const Burger = ({ className }: { className?: string }) => {
+	return (
+		<button type="button" className={`${className}`} aria-hidden>
+			<div className="h-[1px] w-5 rounded-[999px] bg-white mb-[5px] mx-4"></div>
+			<div className="h-[1px] w-5 rounded-[999px] bg-white mb-[5px] mx-4"></div>
+			<div className="h-[1px] w-5 rounded-[999px] bg-white mx-4"></div>
+		</button>
+	);
+};
+
+const LargeScreenNav = ({ className }: { className?: string }) => {
 	return (
 		<nav className={`${className}`}>
 			<ul className="flex justify-around bg-[#ffffff04] border border-[#ffffff25] px-[10px] py-[12px] rounded-[999px]">
@@ -22,6 +32,20 @@ const NavBar = ({ className }: { className?: string }) => {
 				))}
 			</ul>
 		</nav>
+	);
+};
+
+const NavBar = ({
+	className,
+	largeScreen,
+}: {
+	className?: string;
+	largeScreen?: boolean;
+}) => {
+	return largeScreen ? (
+		<LargeScreenNav className={className} />
+	) : (
+		<Burger className={className} />
 	);
 };
 
