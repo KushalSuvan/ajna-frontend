@@ -3,17 +3,17 @@
 import React, { createContext, useContext } from 'react';
 
 type DefaultContext<T> = {
-    context: React.Context<T>,
-    defaultValue: T,
-    Provider: React.FC<{ children: React.ReactNode, value?: T}>,
-    Consumer: React.FC<{ children: (value: T) => React.ReactNode}>
-}
+	context: React.Context<T>;
+	defaultValue: T;
+	Provider: React.FC<{ children: React.ReactNode; value?: T }>;
+	Consumer: React.FC<{ children: (value: T) => React.ReactNode }>;
+};
 
 const createDefaultContext = <T,>(defaultValue: T) => {
 	const context = createContext<T>(defaultValue);
 
 	const contextElement = {
-        context: context,
+		context: context,
 		defaultValue: defaultValue,
 		Provider: ({
 			children,
@@ -34,8 +34,8 @@ const createDefaultContext = <T,>(defaultValue: T) => {
 	return contextElement;
 };
 
-const useDefaultContext = <T, >(context: DefaultContext<T>) => {
-    return useContext(context.context);
-}
+const useDefaultContext = <T,>(context: DefaultContext<T>) => {
+	return useContext(context.context);
+};
 
 export { createDefaultContext, useDefaultContext };

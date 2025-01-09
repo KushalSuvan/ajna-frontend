@@ -1,6 +1,6 @@
-'use client'
+'use client';
 
-import { createDefaultContext } from "@/hooks/defaultContext";
+import { createDefaultContext } from '@/hooks/defaultContext';
 
 const MediaSizeContext = createDefaultContext('lg');
 

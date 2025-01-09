@@ -1,9 +1,5 @@
 const AuthButtons = () => {
-    return (
-        <>
-        
-        </>
-    )
-}
+	return <></>;
+};
 
 export default AuthButtons;
