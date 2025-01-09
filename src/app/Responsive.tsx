@@ -16,9 +16,7 @@ const debounce = (func: (params: string) => void, delay: number) => {
 };
 
 const Responsive = ({ children }: { children: React.ReactNode }) => {
-	const [screenSize, setScreenSize] = useState(
-		window.innerWidth > maxWidthCutoff ? 'lg' : 'sm'
-	);
+	const [screenSize, setScreenSize] = useState('lg');
 	const debouncedSetScreenSize = useCallback(
 		debounce((params: string) => {
 			setScreenSize(params);
@@ -27,6 +25,8 @@ const Responsive = ({ children }: { children: React.ReactNode }) => {
 	);
 
 	useEffect(() => {
+		setScreenSize(window.innerWidth > maxWidthCutoff ? 'lg' : 'sm');
+		
 		const handleResize = () => {
 			if (window.innerWidth > maxWidthCutoff) debouncedSetScreenSize('lg');
 			else if (window.innerWidth <= maxWidthCutoff)
