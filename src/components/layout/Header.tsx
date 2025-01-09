@@ -10,7 +10,7 @@ const Header = ({ className }: { className?: string }) => {
 			className={`sticky 
             w-[100%] p-[20px]
             bg-[rgba(0,0,0,0)] backdrop-blur-sm
-            flex justify-around items-center
+            flex justify-between items-center
 
             text-[14px]
             ${className}`}

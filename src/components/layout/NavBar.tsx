@@ -11,7 +11,7 @@ const links: { [key: string]: string } = {
 const NavBar = ({ className }: { className?: string }) => {
 	return (
 		<nav className={`${className}`}>
-			<ul className="flex space-around bg-[#ffffff04] border border-[#ffffff25] px-[10px] py-[12px] rounded-[999px]">
+			<ul className="flex justify-around bg-[#ffffff04] border border-[#ffffff25] px-[10px] py-[12px] rounded-[999px]">
 				{Object.keys(links).map((key: string) => (
 					<li
 						key={key}

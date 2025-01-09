@@ -23,7 +23,7 @@ const Logo = ({ className }: { className?: string }) => {
 					className="inline "
 				/>
 				<span
-					className={`inline ml-3 text-[20px] align-baseline leading-normal ${iBM_Plex_Sans.className}`}
+					className={`inline ml-2 text-[20px] align-baseline leading-normal ${iBM_Plex_Sans.className}`}
 				>
 					Ajna
 				</span>
