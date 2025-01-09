@@ -15,7 +15,7 @@ const NavBar = ({ className }: { className?: string }) => {
 				{Object.keys(links).map((key: string) => (
 					<li
 						key={key}
-						className="transition-colors ease-in-out block mx-2 text-[#ffffffe6] hover:text-[#ffffffb6]"
+						className="transition-colors ease-in-out block mx-3 text-[#ffffffe6] hover:text-[#ffffffb6]"
 					>
 						<Link href={links[key]}>{key}</Link>
 					</li>

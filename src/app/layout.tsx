@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/layout/Header';
+import Responsive from './Responsive';
 
 const inter = Inter({
 	variable: '--font-inter-v',
@@ -20,10 +21,12 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`max-w-[1300px] mx-auto ${inter.className} antialiased`}>
-				<Header />
-				{children}
-			</body>
+			<Responsive>
+				<body className={`max-w-[1300px] mx-auto ${inter.className} antialiased`}>
+					<Header />
+					{children}
+				</body>
+			</Responsive>
 		</html>
 	);
 }

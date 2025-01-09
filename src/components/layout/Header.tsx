@@ -5,6 +5,7 @@ import Logo from './Logo';
 import NavBar from './NavBar';
 
 const Header = ({ className }: { className?: string }) => {
+
 	return (
 		<header
 			className={`sticky 
