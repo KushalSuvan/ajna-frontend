@@ -8,9 +8,11 @@ const Header = ({ className }: { className?: string }) => {
 	return (
 		<header
 			className={`sticky 
-            w-[100%] 
+            w-[100%] p-[20px]
             bg-[rgba(0,0,0,0)] backdrop-blur-sm
-            flex space-around
+            flex justify-around items-center
+
+            text-[14px]
             ${className}`}
 		>
 			<span className="header-left">

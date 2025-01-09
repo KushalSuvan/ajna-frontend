@@ -1,0 +1,19 @@
+.signUp {
+    display: inline-block;
+    padding-inline: 16px;
+    padding-block: 8px;
+    border: 1px solid #7f60a3;
+    border-radius: 0.75rem;
+
+    color: #ffffffe6;
+
+    box-shadow: inset 0 0 12px #bf97ff3d;
+    background-image: linear-gradient(180deg,rgba(60,8,126,0) 0%,rgba(60,8,126,.32) 100%);
+    background-color: rgba(113,47,255,.12);
+
+    transition: background-color ease-in-out 0.15s;
+}
+
+.signUp:hover {
+        background-color: rgba(113,47,255,.32);
+}
