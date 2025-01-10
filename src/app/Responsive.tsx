@@ -26,7 +26,7 @@ const Responsive = ({ children }: { children: React.ReactNode }) => {
 
 	useEffect(() => {
 		setScreenSize(window.innerWidth > maxWidthCutoff ? 'lg' : 'sm');
-		
+
 		const handleResize = () => {
 			if (window.innerWidth > maxWidthCutoff) debouncedSetScreenSize('lg');
 			else if (window.innerWidth <= maxWidthCutoff)

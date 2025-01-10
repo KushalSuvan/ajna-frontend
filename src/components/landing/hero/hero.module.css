@@ -1,0 +1,7 @@
+.spotlight {
+	background: radial-gradient(
+		37.74% 81.78% at 50% 26.56%,
+		rgba(148, 101, 255, 0.1) 0%,
+		rgba(3, 0, 20, 0) 100%
+	);
+}

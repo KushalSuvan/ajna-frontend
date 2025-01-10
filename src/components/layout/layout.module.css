@@ -21,3 +21,23 @@
 .signUp:hover {
 	background-color: rgba(113, 47, 255, 0.32);
 }
+
+@media (min-width: 1000px) {
+	.header::before {
+		content: '';
+
+		position: absolute;
+
+		top: 100%;
+		left: 0px;
+
+		height: 1px;
+		width: 100%;
+		background: linear-gradient(
+			90deg,
+			transparent,
+			rgb(255 255 255 / 10%),
+			transparent
+		);
+	}
+}

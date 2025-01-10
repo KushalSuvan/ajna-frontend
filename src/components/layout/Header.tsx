@@ -1,5 +1,7 @@
 'use client';
 
+import styles from './layout.module.css';
+
 import AuthButtons from './AuthButtons';
 import Logo from './Logo';
 import NavBar from './NavBar';
@@ -7,12 +9,17 @@ import NavBar from './NavBar';
 const Header = ({ className }: { className?: string }) => {
 	return (
 		<header
-			className={`sticky 
+			className={`fixed
+			top-0 left-0 
             w-[100%] p-[20px]
             bg-[rgba(0,0,0,0)] backdrop-blur-sm
             flex justify-between items-center
 
             text-[14px]
+
+			z-[108]
+
+			${styles.header}
             ${className}`}
 		>
 			<span className="header-left">

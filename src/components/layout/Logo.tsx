@@ -13,14 +13,14 @@ const Logo = ({ className }: { className?: string }) => {
 		<span className={`block ${className}`}>
 			<Link
 				href="/"
-				className="items-center space-between mx-[20px] leading-[40px]"
+				className="items-center space-between mr-[20px] leading-[40px]"
 			>
 				<Image
 					alt="Ajna logo"
 					src="/logo.png"
 					width="40"
 					height="40"
-					className="inline "
+					className="inline"
 				/>
 				<span
 					className={`inline ml-2 text-[20px] align-baseline leading-normal ${iBM_Plex_Sans.className}`}
