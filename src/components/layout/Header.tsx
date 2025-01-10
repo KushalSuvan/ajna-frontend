@@ -11,9 +11,9 @@ const Header = ({ className }: { className?: string }) => {
 		<header
 			className={`fixed
 			top-0 left-0 
-            w-[100%] p-[20px]
+            w-[100%] p-[20px] pl-[4%]
             bg-[rgba(0,0,0,0)] backdrop-blur-sm
-            flex justify-between items-center
+            flex justify-between lg:justify-around items-center
 
             text-[14px]
 
