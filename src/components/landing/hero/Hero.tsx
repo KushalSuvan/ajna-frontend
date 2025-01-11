@@ -1,5 +1,7 @@
-import aeonikPro from '@/fonts/aeonik-pro.font';
+'use client';
+
 import Spotlight from './Spotlight';
+import HeroText from './HeroText';
 
 const Hero = ({ className }: { className?: string }) => {
 	return (
@@ -9,20 +11,8 @@ const Hero = ({ className }: { className?: string }) => {
 		h-[90vh]
 		${className}`}
 		>
-			<Spotlight />
-			<h1
-				className={`pt-[173px] 
-					text-center
-					text-transparent bg-gradient-to-t from-gray-300 to-white bg-clip-text 
-					${aeonikPro.className}`}
-			>
-				<span className="block lg:inline-block text-5xl lg:text-7xl pb-1 m-2">
-					Risks?
-				</span>
-				<span className="block lg:inline-block text-5xl lg:text-7xl pb-1 m-2">
-					Leverage them!
-				</span>
-			</h1>
+			<Spotlight className='absolute h-[90%] w-[100%]'/>
+			<HeroText className="pt-[173px]" />
 		</section>
 	);
 };

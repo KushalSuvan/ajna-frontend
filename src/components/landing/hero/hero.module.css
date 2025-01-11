@@ -5,3 +5,143 @@
 		rgba(3, 0, 20, 0) 100%
 	);
 }
+
+.heroText1 {
+	--purple-color: rgb(236, 226, 255);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText2 {
+	--purple-color: rgb(228, 214, 253);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText3 {
+	--purple-color: rgb(220, 202, 251);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText4 {
+	--purple-color: rgb(220, 200, 253);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText5 {
+	--purple-color: rgb(220, 215, 249);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText6 {
+	--purple-color: rgb(212, 210, 247);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText7 {
+	--purple-color: rgb(220, 202, 251);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText8 {
+	--purple-color: rgb(228, 214, 253);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText9 {
+	--purple-color: rgb(220, 214, 251);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText10 {
+	--purple-color: rgb(212, 214, 249);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText11 {
+	--purple-color: rgb(204, 214, 247);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText12 {
+	--purple-color: rgb(224, 226, 241);
+	background: linear-gradient(90deg, white 80%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText13 {
+	--purple-color: rgb(196, 226, 245);
+	background: linear-gradient(90deg, white 50%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText14 {
+	--purple-color: rgb(204, 226, 250);
+	background: linear-gradient(90deg, white 50%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText15 {
+	--purple-color: rgb(236, 226, 255);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText16 {
+	--purple-color: rgb(236, 226, 255);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText17 {
+	--purple-color: rgb(236, 226, 255);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText18 {
+	--purple-color: rgb(236, 226, 255);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText19 {
+	--purple-color: rgb(213, 185, 253);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
+
+.heroText20 {
+	--purple-color: rgb(210, 180, 250);
+	background: linear-gradient(90deg, white 0%, var(--purple-color) 100%) text;
+	color: transparent;
+	text-shadow: 0 0 8px var(--purple-color);
+}
