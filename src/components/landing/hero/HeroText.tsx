@@ -14,7 +14,7 @@ const HeroText = ({ className }: { className?: string }) => {
 		gsap.from('.heroText', {
 			y: 80,
 			duration: 0.8,
-			delay: 1,
+			delay: 1.5,
 			stagger: 0.17,
 			ease: 'power7.out',
 		});

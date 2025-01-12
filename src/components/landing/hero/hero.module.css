@@ -6,44 +6,30 @@
 	);
 }
 
-@media (width <= 1000px) {
-	.aurora {
-		background: conic-gradient(from 160deg at 24% -20%, rgba(218, 173, 255, 0.4), rgba(135, 64, 194, 0.2) 10deg, transparent 20deg, transparent 340deg, rgb(93, 43, 133, 0.2) 350deg, rgba(218, 173, 255, 0.4));
-		filter: blur(8);
-	}
-}
+
 
 .aurora {
-	animation: auroraReveal ease 3s;
+	display: block;
+	animation: auroraReveal 2s;
 	animation-iteration-count: 1;
-	background: radial-gradient(ellipse 70% 50% at 50% 55%, rgba(161, 141, 255, 0.2) 0%, rgba(3,0,20,0) 70%),
-	radial-gradient(ellipse 20% 60% at -5% 50%, rgba(218, 173, 255, 0.8) 0%, rgba(3,0,20,0) 70%),
-	radial-gradient(ellipse 60% 100% at 35% 0%, rgba(218, 173, 255, 0) 0%, rgba(3,0,20,1) 80%),
-	conic-gradient(from 150deg at 10% -70%, rgba(218, 173, 255, 0.8), rgba(135, 64, 194, 0.2) 10deg, transparent 20deg, transparent 340deg, rgb(93, 43, 133, 0.2) 350deg, rgba(218, 173, 255, 0.8)),
-	conic-gradient(from 130deg at 10% -70%, rgba(218, 173, 255, 0.5), rgba(135, 64, 194, 0.2) 10deg, transparent 20deg, transparent 340deg, rgb(93, 43, 133, 0.2) 350deg, rgba(218, 173, 255, 0.5)),
-	conic-gradient(from 190deg at 10% -70%, rgba(218, 173, 255, 1), rgba(135, 64, 194, 0.2) 5deg, transparent 20deg, transparent 340deg, rgb(93, 43, 133, 0.2) 347deg, rgba(218, 173, 255, 1));
-	filter: blur(40px);
-}
-
-@keyframes auroraReveal {
-	0% {
-		background: radial-gradient(ellipse 20% 5% at 50% 55%, rgba(161, 141, 255, 0.2) 0%, rgba(3,0,20,0) 70%),
-		radial-gradient(ellipse 20% 60% at -5% 50%, rgba(218, 173, 255, 0.8) 0%, rgba(3,0,20,0) 70%),
-		radial-gradient(ellipse 60% 0% at 35% 0%, rgba(218, 173, 255, 0) 0%, rgba(3,0,20,1) 80%),
-		conic-gradient(from 150deg at 10% -70%, rgba(218, 173, 255, 0.8), rgba(135, 64, 194, 0.2) 10deg, transparent 20deg, transparent 340deg, rgb(93, 43, 133, 0.2) 350deg, rgba(218, 173, 255, 0.8)),
-		conic-gradient(from 130deg at 10% -70%, rgba(218, 173, 255, 0.5), rgba(135, 64, 194, 0.2) 10deg, transparent 20deg, transparent 340deg, rgb(93, 43, 133, 0.2) 350deg, rgba(218, 173, 255, 0.5)),
-		conic-gradient(from 190deg at 10% -70%, rgba(218, 173, 255, 1), rgba(135, 64, 194, 0.2) 5deg, transparent 20deg, transparent 340deg, rgb(93, 43, 133, 0.2) 347deg, rgba(218, 173, 255, 1));
-		filter: blur(80px);
-	}
-
-	100% {
-		background: radial-gradient(ellipse 70% 50% at 50% 55%, rgba(161, 141, 255, 0.2) 0%, rgba(3,0,20,0) 70%),
+	background: 
 		radial-gradient(ellipse 20% 60% at -5% 50%, rgba(218, 173, 255, 0.8) 0%, rgba(3,0,20,0) 70%),
 		radial-gradient(ellipse 60% 100% at 35% 0%, rgba(218, 173, 255, 0) 0%, rgba(3,0,20,1) 80%),
 		conic-gradient(from 150deg at 10% -70%, rgba(218, 173, 255, 0.8), rgba(135, 64, 194, 0.2) 10deg, transparent 20deg, transparent 340deg, rgb(93, 43, 133, 0.2) 350deg, rgba(218, 173, 255, 0.8)),
 		conic-gradient(from 130deg at 10% -70%, rgba(218, 173, 255, 0.5), rgba(135, 64, 194, 0.2) 10deg, transparent 20deg, transparent 340deg, rgb(93, 43, 133, 0.2) 350deg, rgba(218, 173, 255, 0.5)),
 		conic-gradient(from 190deg at 10% -70%, rgba(218, 173, 255, 1), rgba(135, 64, 194, 0.2) 5deg, transparent 20deg, transparent 340deg, rgb(93, 43, 133, 0.2) 347deg, rgba(218, 173, 255, 1));
-		filter: blur(40px);
+	filter: blur(30px);
+}
+
+@keyframes auroraReveal {
+	0% {
+		opacity: 0;
+		filter: blur(80px);
+	}
+
+	100% {
+		opacity: 1;
+		filter: blur(30px);
 	}
 }
 
