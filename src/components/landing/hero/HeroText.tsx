@@ -31,23 +31,23 @@ const HeroText = ({ className }: { className?: string }) => {
 		>
 			<span className="block lg:inline-block overflow-hidden text-5xl lg:text-7xl m-2">
 				<span className="heroText inline-block">
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText1}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText1}`}>
 						R
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText2}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText2}`}>
 						i
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText3}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText3}`}>
 						s
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText4}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText4}`}>
 						k
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText5}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText5}`}>
 						s
 					</span>
 					<span
-						className={`inline-block pb-1 mr-3 ${textBg} ${styles.heroText6}`}
+						className={`inline-block pb-2 mr-3 ${textBg} ${styles.heroText6}`}
 					>
 						?
 					</span>
@@ -55,50 +55,50 @@ const HeroText = ({ className }: { className?: string }) => {
 			</span>
 			<span className="block lg:inline-block overflow-hidden text-5xl lg:text-7xl m-2">
 				<span className="heroText inline-block">
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText7}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText7}`}>
 						L
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText8}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText8}`}>
 						e
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText9}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText9}`}>
 						v
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText10}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText10}`}>
 						e
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText11}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText11}`}>
 						r
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText12}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText12}`}>
 						a
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText13}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText13}`}>
 						g
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText14}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText14}`}>
 						e
 					</span>
 				</span>
 				<span className="heroText inline-block">
 					<span
-						className={`inline-block pb-1 mr-4 ${textBg} ${styles.heroText15}`}
+						className={`inline-block pb-2 mr-4 ${textBg} ${styles.heroText15}`}
 					>
 						{' '}
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText16}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText16}`}>
 						t
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText17}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText17}`}>
 						h
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText18}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText18}`}>
 						e
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText19}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText19}`}>
 						m
 					</span>
-					<span className={`inline-block pb-1 ${textBg} ${styles.heroText20}`}>
+					<span className={`inline-block pb-2 ${textBg} ${styles.heroText20}`}>
 						!
 					</span>
 				</span>

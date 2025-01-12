@@ -23,7 +23,7 @@ export default function RootLayout({
 		<html lang="en">
 			<Responsive>
 				<body
-					className={`max-w-[1300px] mx-auto ${inter.className} antialiased`}
+					className={` mx-auto ${inter.className} antialiased`}
 				>
 					<Header />
 					{children}
