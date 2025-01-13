@@ -4,7 +4,7 @@ const Aurora = ({ className }: { className?: string }) => {
 	return (
 		<div
 			aria-hidden
-			className={`${styles.aurora1} ${className}`}
+			className={`${styles.aurora} ${className}`}
 		></div>
 	);
 };

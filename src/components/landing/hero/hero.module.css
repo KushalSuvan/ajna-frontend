@@ -1,3 +1,19 @@
+.heroSection {
+	display: block;
+	animation: heroEnter ease 1s;
+	animation-delay: 5.5s;
+}
+
+@keyframes heroEnter {
+	0% {
+		display: none;
+	}
+
+	100% {
+		display: block;
+	}
+}
+
 .spotlight {
 	background: radial-gradient(
 		37.74% 81.78% at 50% 26.56%,
@@ -6,9 +22,9 @@
 	);
 }
 
-.aurora1 {
+.aurora {
 	display: block;
-	animation: auroraReveal 2s;
+	animation: auroraReveal ease-out 2s;
 	animation-iteration-count: 1;
 	background: 
 		radial-gradient(ellipse 20% 60% at -5% 50%, rgba(218, 173, 255, 0.8) 0%, rgba(3,0,20,0) 70%),
@@ -17,6 +33,7 @@
 		conic-gradient(from 130deg at 10% -70%, rgba(218, 173, 255, 0.5), rgba(135, 64, 194, 0.2) 10deg, transparent 20deg, transparent 340deg, rgb(93, 43, 133, 0.2) 350deg, rgba(218, 173, 255, 0.5)),
 		conic-gradient(from 190deg at 10% -70%, rgba(218, 173, 255, 1), rgba(135, 64, 194, 0.2) 5deg, transparent 20deg, transparent 340deg, rgb(93, 43, 133, 0.2) 347deg, rgba(218, 173, 255, 1));
 	filter: blur(30px);
+	opacity: 0.8;
 }
 
 @keyframes auroraReveal {
@@ -26,7 +43,7 @@
 	}
 
 	100% {
-		opacity: 1;
+		opacity: 0.8;
 		filter: blur(30px);
 	}
 }
